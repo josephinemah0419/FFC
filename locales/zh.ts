@@ -69,5 +69,5 @@ export const zh = {
     form: { eyebrow: "给我们留言", title: "我们乐意协助", name: "负责人姓名", company: "公司名称", country: "国家", state: "州属", phone: "联系电话", email: "电子邮箱", enquiry: "咨询类型", message: "留言", phonePlaceholder: "马来西亚 +60", selectEnquiry: "请选择咨询类型", options: ["FFC 认证", "餐厅", "食材 / 供应", "合作", "一般咨询"], validation: "请先填写所有必填项目，再发送您的咨询。", preparing: "准备中…", submit: "提交留言", note: "此表单已准备好连接 API。在演示版本中，不会发送任何联系资料。", successTitle: "感谢您的联系。", successCopy: "您的留言已准备交给 FFC 团队。此演示表单会在 API 配置完成后才实际发送资料。", another: "再发送一则留言" },
     visit: { eyebrow: "欢迎到访", title: "欢迎来到 FFC", mapLabel: "Foodie & Friend Cuisine", mapLocation: "八打灵再也，雪兰莪" },
   },
-  alt: { heroDish: "一道搭配新鲜蔬菜的完成料理", greens: "新鲜绿叶食材", restaurant: "温暖的餐厅空间", dish: "招牌蔬菜料理", tea: "温暖的招牌茶饮", basket: "新鲜食材篮", certificate: "两位餐饮专业人士手持 FFC 认证证书", leaves: "带着水珠的叶片", kitchen: "厨房备餐场景", prep: "食材准备过程", produce: "农场收成", teaGarden: "茶叶", completedDish: "完成的料理" },
+  alt: { heroDish: "一道搭配新鲜蔬菜的完成料理", greens: "新鲜绿叶食材", restaurant: "温暖的餐厅空间", founders: "Mr. Foong 与 Queen Chin", dish: "招牌蔬菜料理", tea: "温暖的招牌茶饮", basket: "新鲜食材篮", certificate: "两位餐饮专业人士手持 FFC 认证证书", leaves: "带着水珠的叶片", kitchen: "厨房备餐场景", prep: "食材准备过程", produce: "农场收成", teaGarden: "茶叶", completedDish: "完成的料理" },
 };

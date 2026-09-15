@@ -157,6 +157,7 @@ h3 { font-size: 1.65rem; }
 .story-tagline { margin-top: 45px; }
 .founders-section { position: relative; display: grid; min-height: 500px; align-items: center; isolation: isolate; overflow: hidden; }
 .founders-section > .media { position: absolute; inset: 0; z-index: -2; }
+.founders-section > .media img { object-position: center 15%; }
 .founders-section::after { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(30, 15, 8, .89), rgba(30, 15, 8, .18)); content: ""; }
 .founders-copy { padding: 75px 0; }
 .founders-copy > div { max-width: 510px; }
