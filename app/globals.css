@@ -624,3 +624,120 @@ p { text-wrap: pretty; }
   .footer-bottom small { font-size: .6875rem; }
   .footer-tagline { font-size: 1.75rem; }
 }
+
+/* Requested page refinements */
+html, body { overflow-x: clip; }
+
+/* Homepage certification timeline */
+.certification-preview .timeline-title {
+  margin-bottom: clamp(2.25rem, 3vw, 2.75rem);
+  font-family: var(--font-display);
+  font-size: clamp(2.875rem, 4vw, 3.625rem);
+  font-weight: 500;
+  letter-spacing: -.02em;
+  line-height: 1.02;
+}
+
+.certification-preview .timeline-step {
+  min-height: 232px;
+  gap: 0;
+  padding-top: 24px;
+}
+
+.certification-preview .timeline-step span {
+  width: 80px;
+  height: 80px;
+  color: #f7e7d5;
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 3.4vw, 3.125rem);
+  font-weight: 500;
+  letter-spacing: -.02em;
+  line-height: .9;
+}
+
+.certification-preview .timeline-step b {
+  display: block;
+  margin-top: 11px;
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.2vw, 1.0625rem);
+  font-weight: 600;
+  letter-spacing: -.005em;
+  line-height: 1.2;
+}
+
+.certification-preview .timeline-step small {
+  display: block;
+  max-width: 18ch;
+  margin-top: 11px;
+  font-family: var(--font-body);
+  font-size: clamp(.9375rem, 1.1vw, 1rem);
+  font-weight: 400;
+  letter-spacing: -.005em;
+  line-height: 1.55;
+}
+
+/* About story */
+.about-story-copy { max-width: 65ch; }
+.about-story-copy > p {
+  max-width: 65ch;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -.005em;
+  line-height: 1.65;
+}
+.about-story-copy > p + p { margin-top: 26px; }
+.about-mission { display: flex; align-items: flex-start; gap: 18px; margin-top: 42px; padding-top: 32px; border-top: 1px solid rgba(244, 235, 221, .2); }
+.about-mission .icon-orb { width: 54px; height: 54px; flex: 0 0 auto; margin: 0; }
+.about-mission h2 { margin: 0 0 8px; font-size: clamp(2rem, 2.8vw, 2.75rem); line-height: 1.02; }
+.about-mission p { margin: 0; font-family: var(--font-body); font-size: 1rem; font-weight: 400; line-height: 1.65; }
+
+/* Certification hero */
+.certification-hero { min-height: clamp(42.5rem, 56vw, 47.5rem); overflow: hidden; background: #2a1710; color: var(--cream); }
+.certification-hero-grid { display: grid; min-height: inherit; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(2rem, 5vw, 5rem); }
+.certification-hero-copy { max-width: 610px; padding: 88px 0; }
+.certification-hero-copy h1 { margin-bottom: 24px; font-size: clamp(3.5rem, 5.2vw, 5.75rem); line-height: .96; }
+.certification-hero-copy p { max-width: 56ch; margin: 0; color: rgba(250, 245, 236, .87); font-family: var(--font-body); font-size: 1rem; font-weight: 400; line-height: 1.65; }
+.certification-hero-visual { align-self: end; justify-self: end; width: min(56vw, 700px); max-width: none; line-height: 0; }
+.certification-hero-visual img { display: block; width: 100%; height: auto; max-width: none; object-fit: contain; object-position: center bottom; }
+
+/* Contact visit section */
+.contact-form-shell { max-width: 700px; margin-left: 0; }
+.contact-visit-section { border-top: 1px solid #dec8b3; background: #f8f1e7; }
+.contact-visit-layout { display: grid; grid-template-columns: minmax(0, .4fr) minmax(0, .6fr); align-items: center; gap: clamp(2.5rem, 7vw, 7rem); }
+.contact-visit-copy h2 { margin-bottom: 24px; color: var(--ink); font-size: clamp(3rem, 4.2vw, 4.5rem); }
+.contact-visit-copy address { color: #4a2c1b; font-family: var(--font-body); font-size: 1rem; font-style: normal; font-weight: 400; line-height: 1.7; }
+.contact-visit-copy .hero-actions { margin-top: 30px; }
+.contact-visit-copy .button-ghost { border-color: #7c4629; background: transparent; color: #3e2214; }
+.contact-map-preview { position: relative; display: grid; min-height: 420px; place-items: center; overflow: hidden; border: 1px solid #dcc6b2; border-radius: 8px; background-color: #eee2d4; background-image: linear-gradient(32deg, transparent 47%, rgba(143, 99, 71, .13) 48%, rgba(143, 99, 71, .13) 52%, transparent 53%), linear-gradient(118deg, transparent 47%, rgba(143, 99, 71, .13) 48%, rgba(143, 99, 71, .13) 52%, transparent 53%), linear-gradient(90deg, rgba(255, 255, 255, .46) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, .46) 1px, transparent 1px); background-size: auto, auto, 42px 42px, 42px 42px; }
+.contact-map-preview::after { position: absolute; right: -70px; bottom: -95px; width: 300px; height: 300px; border: 36px solid rgba(194, 120, 72, .12); border-radius: 50%; content: ""; }
+.contact-map-pin { position: relative; z-index: 1; display: flex; max-width: 260px; align-items: center; gap: 12px; border: 1px solid #d7b89d; border-radius: 8px; background: rgba(250, 245, 236, .96); padding: 17px 20px; color: var(--ink); box-shadow: 0 16px 32px rgba(74, 44, 27, .12); }
+.contact-map-pin svg { width: 29px; height: 29px; flex: 0 0 auto; fill: #ae592b; color: #ae592b; }
+.contact-map-pin span { font-family: var(--font-body); font-size: .9375rem; font-weight: 600; line-height: 1.35; }
+.contact-map-preview > p { position: absolute; z-index: 1; right: 24px; bottom: 20px; margin: 0; color: #81543a; font-family: var(--font-body); font-size: .75rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+
+@media (max-width: 900px) {
+  .certification-hero { min-height: auto; }
+  .certification-hero-grid { grid-template-columns: 1fr; gap: 0; }
+  .certification-hero-copy { padding: 88px 0 24px; }
+  .certification-hero-visual { width: min(84vw, 700px); margin-right: auto; }
+  .contact-visit-layout { gap: 44px; }
+}
+
+@media (max-width: 680px) {
+  .certification-preview .timeline-title { margin-bottom: 24px; font-size: clamp(2.125rem, 10vw, 2.5rem); }
+  .certification-preview .timeline-step { grid-template-columns: 80px minmax(0, 1fr); column-gap: 16px; padding: 24px 0; }
+  .certification-preview .timeline-step span { grid-row: span 2; width: 72px; height: 72px; font-size: clamp(2.125rem, 10vw, 2.5rem); }
+  .certification-preview .timeline-step b { margin-top: 8px; }
+  .certification-preview .timeline-step small { max-width: 32ch; margin-top: 10px; }
+  .about-mission { gap: 14px; margin-top: 34px; padding-top: 26px; }
+  .about-mission .icon-orb { width: 48px; height: 48px; }
+  .certification-hero-copy { padding: 70px 0 16px; }
+  .certification-hero-copy h1 { font-size: clamp(2.75rem, 11.5vw, 3.5rem); }
+  .certification-hero-visual { width: min(100%, 700px); }
+  .contact-visit-layout { grid-template-columns: 1fr; gap: 36px; }
+  .contact-visit-copy h2 { font-size: clamp(2.5rem, 10vw, 3.25rem); }
+  .contact-visit-copy .hero-actions { display: grid; max-width: 290px; }
+  .contact-map-preview { min-height: 300px; }
+}

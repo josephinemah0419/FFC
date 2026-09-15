@@ -15,8 +15,8 @@ export const images = {
   prep: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=1400&q=80",
 };
 
-export const mapLink = "https://www.google.com/maps/search/?api=1&query=1st+Floor%2C+1D-1%2C+Jalan+SS+9a%2F17%2C+43700+Petaling+Jaya%2C+Selangor";
-export const wazeLink = "https://www.waze.com/ul?q=1st%20Floor%2C%201D-1%2C%20Jalan%20SS%209a%2F17%2C%2043700%20Petaling%20Jaya%2C%20Selangor";
+export const mapLink = "https://maps.app.goo.gl/CSZkdNGPuai3wCx89";
+export const wazeLink = "https://waze.com/ul/hw28386yhm";
 
 export type Role = { icon: LucideIcon; title: string; copy: string; image: string };
 export const roles: Role[] = [
