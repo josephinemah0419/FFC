@@ -1,5 +1,3 @@
-import { ChefHat, Factory, Leaf, UtensilsCrossed, type LucideIcon } from "lucide-react";
-
 export const images = {
   hero: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1800&q=85",
   salad: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1400&q=80",
@@ -17,18 +15,3 @@ export const images = {
 
 export const mapLink = "https://maps.app.goo.gl/CSZkdNGPuai3wCx89";
 export const wazeLink = "https://waze.com/ul/hw28386yhm";
-
-export type Role = { icon: LucideIcon; title: string; copy: string; image: string };
-export const roles: Role[] = [
-  { icon: UtensilsCrossed, title: "Restaurants", copy: "Show how menus, kitchens and preparation choices reflect ingredient integrity.", image: images.restaurant },
-  { icon: Leaf, title: "Farmers", copy: "Demonstrate careful growing, harvesting and handling of raw ingredients.", image: images.farmer },
-  { icon: Factory, title: "Factories", copy: "Present production practices that protect quality and minimize artificial additions.", image: images.factory },
-  { icon: ChefHat, title: "Cooks", copy: "Recognize cooks who let honest raw ingredients lead the finished dish.", image: images.kitchen },
-];
-
-export const processSteps = [
-  ["01", "Apply", "Submit your interest to FFC."],
-  ["02", "Review", "We review your food practices and ingredient choices."],
-  ["03", "Assessment", "FFC carries out a more thorough assessment."],
-  ["04", "Recognition", "Qualified applicants receive FFC recognition."],
-];

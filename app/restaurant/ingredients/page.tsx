@@ -1,7 +1,13 @@
+"use client";
+
 import { Leaf, Sprout, Wheat } from "lucide-react";
+import { useLocale, LocalizedLines } from "@/components/i18n/LocaleProvider";
 import { Media } from "@/components/ui/Media";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionLabel } from "@/components/ui/Section";
 import { images } from "@/data/site";
-export default function IngredientsPage() { return <main><PageHero eyebrow="Our Ingredients" title={<>It Starts<br />with Ingredients.</>} copy="We prefer real, raw ingredients and thoughtful sourcing, with less reliance on artificial additives." image={images.greens} /><section className="section ingredients-story"><div className="shell"><div className="section-heading-pair"><Reveal><SectionLabel>What Guides Us</SectionLabel><h2>Let ingredients<br />take the lead.</h2></Reveal><Reveal><p className="body-copy">We believe better food starts with a closer relationship to what goes into it — without making claims beyond what a dish can honestly deliver.</p></Reveal></div><div className="ingredient-grid"><Reveal className="ingredient-wide"><Media src={images.farmer} alt="Farm produce placeholder" /></Reveal><Reveal><Media src={images.teaGarden} alt="Tea leaves placeholder" /></Reveal><Reveal className="ingredient-copy"><span className="icon-orb"><Leaf /></span><h3>Real &amp; raw ingredients</h3><p>Ingredients valued for their natural character.</p></Reveal><Reveal className="ingredient-copy"><span className="icon-orb"><Sprout /></span><h3>Thoughtful sourcing</h3><p>Careful choices that shape what reaches the kitchen.</p></Reveal><Reveal className="ingredient-copy"><span className="icon-orb"><Wheat /></span><h3>Less reliance on artificial additives</h3><p>A considered approach rather than sweeping claims.</p></Reveal></div></div></section></main>; }
+
+const icons = [Leaf, Sprout, Wheat];
+
+export default function IngredientsPage() { const { t } = useLocale(); const ingredients = t.ingredients; return <main><PageHero eyebrow={ingredients.hero.eyebrow} title={<LocalizedLines text={ingredients.hero.title} />} copy={ingredients.hero.copy} image={images.greens} /><section className="section ingredients-story"><div className="shell"><div className="section-heading-pair"><Reveal><SectionLabel>{ingredients.story.eyebrow}</SectionLabel><h2><LocalizedLines text={ingredients.story.title} /></h2></Reveal><Reveal><p className="body-copy">{ingredients.story.copy}</p></Reveal></div><div className="ingredient-grid"><Reveal className="ingredient-wide"><Media src={images.farmer} alt={t.alt.produce} /></Reveal><Reveal><Media src={images.teaGarden} alt={t.alt.teaGarden} /></Reveal>{ingredients.story.cards.map(([title, copy], index) => { const Icon = icons[index]; return <Reveal className="ingredient-copy" key={title}><span className="icon-orb"><Icon /></span><h3>{title}</h3><p>{copy}</p></Reveal>; })}</div></div></section></main>; }

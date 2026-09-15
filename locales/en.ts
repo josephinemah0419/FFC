@@ -1,0 +1,73 @@
+export const en = {
+  locale: "en" as const,
+  meta: {
+    home: { title: "Foodie & Friend Cuisine | Rooted in Malaysia", description: "Honest food starts with real ingredients." },
+    about: { title: "About FFC | Foodie & Friend Cuisine", description: "Learn about the people and values behind Foodie & Friend Cuisine." },
+    certification: { title: "FFC Certification | Foodie & Friend Cuisine", description: "Recognition for thoughtful food practices and real ingredients." },
+    restaurant: { title: "FFC Restaurant | Foodie & Friend Cuisine", description: "A tea bar and comforting home-style cooking shaped by thoughtful ingredients." },
+    menu: { title: "Our Menu | FFC Restaurant", description: "Explore the FFC Restaurant tea bar and home-style cooking menu." },
+    kitchen: { title: "Our Kitchen | FFC Restaurant", description: "Discover FFC's thoughtful, ingredient-led approach to cooking." },
+    ingredients: { title: "Our Ingredients | FFC Restaurant", description: "Learn about the ingredients and sourcing choices behind FFC." },
+    contact: { title: "Contact FFC | Foodie & Friend Cuisine", description: "Get in touch with Foodie & Friend Cuisine in Petaling Jaya." },
+  },
+  navigation: { home: "Home", about: "About", certification: "Certification", restaurant: "Restaurant", contact: "Contact" },
+  common: {
+    rooted: "Rooted in Malaysia", certified: "Get FFC Certified", visitRestaurant: "Visit Our Restaurant", discoverStory: "Discover Our Story",
+    exploreRestaurant: "Explore Our Restaurant", exploreMenu: "Explore Menu", visitUs: "Visit Us", googleMaps: "Google Maps", waze: "Waze",
+    openNavigation: "Open navigation", closeNavigation: "Close navigation", mobileNavigation: "Mobile navigation", mainNavigation: "Main navigation",
+    restaurantHighlights: "Restaurant highlights", seeRestaurant: "See the restaurant", editorialPhoto: "FFC editorial photography", selectLanguage: "Select language",
+  },
+  footer: { addressLabel: "Address", rights: "© 2026 Foodie & Friend Cuisine. All rights reserved.", tagline: "Good Food Brings People Together.", instagram: "Instagram" },
+  home: {
+    hero: { eyebrow: "Rooted in Malaysia", desktopTitle: "Honest Food Starts\nwith Real Ingredients.", mobileTitle: "Honest Food\nStarts with\nReal Ingredients.", copy: "Foodie & Friend Cuisine brings together people who believe better food begins with real ingredients." },
+    about: { eyebrow: "About FFC", title: "A community built\naround honest food.", copy: "Foodie & Friend Cuisine brings together food makers, restaurants, cooks and producers who believe better food begins with real ingredients and less reliance on artificial additives.", founders: "Founded by Mr. Foong & Queen Chin" },
+    restaurant: { eyebrow: "FFC Restaurant", title: "Taste what\nwe believe in.", copy: "Our philosophy comes to life through a tea bar and comforting home-style cooking, prepared with thoughtful ingredients.", dish: "Signature Dish", dishCopy: "Real ingredients, true flavours.", tea: "Signature Tea", teaCopy: "Thoughtfully blended." },
+    certification: {
+      eyebrow: "FFC Certification", title: "Recognising those who\nchoose ingredients with intention.", copy: "We work with restaurants, farmers, factories and cooks who are committed to better ingredients and more responsible food practices.", timelineTitle: "From application to recognition.",
+      steps: [["01", "Apply", "Submit your interest to FFC."], ["02", "Review", "We review your food practices."], ["03", "Assessment", "A thoughtful assessment follows."], ["04", "Recognition", "Qualified applicants receive FFC recognition."]],
+      roles: ["Restaurants", "Farmers", "Factories", "Cooks"],
+    },
+    values: { eyebrow: "Our Philosophy", title: "What We Stand For.", items: [["Real Ingredients", "Food as it should be."], ["Responsible Practices", "For people and the planet."], ["Stronger Communities", "Good food brings people together."], ["A Better Tomorrow", "Healthier food, brighter futures."]] },
+    ctas: { professionalsEyebrow: "For Food Professionals", professionalsTitle: "Believe in better ingredients?\nBecome part of FFC.", loversEyebrow: "For Food Lovers", loversTitle: "Come experience\nit at our table." },
+  },
+  about: {
+    hero: { eyebrow: "Our Story", title: "Food culture with a higher standard.", copy: "Founded in Malaysia by Mr. Foong of Teaxini Tea and Miss Queen Chin of HY Fried Station." },
+    story: { first: "Foodie & Friend Cuisine (FFC) is a certification body in Malaysia, founded by Mr. Foong of Teaxini Tea and Miss Queen Chin of HY Fried Station. We honor the art of honest food preparation, celebrating those who craft with integrity and passion.", second: "Our mission is to connect responsible producers, cooks, and communities, fostering a network that values quality and authenticity in every dish. Together, we strive to elevate culinary standards and nurture meaningful relationships within the food industry.", missionTitle: "Our mission", missionCopy: "To recognize food practices centered on raw ingredients, transparency, and care." },
+    values: { eyebrow: "Our Values", title: "What we stand for.", items: [["Real Ingredients", "Food as it should be."], ["Responsible Practices", "For people and the planet."], ["Stronger Communities", "Good food brings people together."], ["A Better Tomorrow", "Healthier food, brighter futures."]] },
+    founders: { eyebrow: "Our Founders", title: "Food brings\nus together.", copy: "Founded by Mr. Foong & Queen Chin, who share a simple belief — good food can create a better tomorrow.", link: "Meet Our Founders" },
+    close: { title: "Better ingredients.\nBrighter tomorrows." },
+  },
+  certification: {
+    hero: { eyebrow: "FFC Certification", desktopTitle: "Recognition for those\nwho choose real ingredients.", mobileTitle: "Recognition\nfor those who\nchoose real\ningredients.", copy: "FFC recognises restaurants, farmers, food producers and cooks who demonstrate thoughtful food practices and a commitment to ingredient integrity." },
+    roles: { eyebrow: "Who Can Get Certified", title: "Different Roles,\nA Shared Belief.", copy: "We welcome everyone across the food journey who is committed to real ingredients and more responsible food practices.", items: [["Restaurants", "Show how menus, kitchens and preparation choices reflect ingredient integrity."], ["Farmers", "Demonstrate careful growing, harvesting and handling of raw ingredients."], ["Factories", "Present production practices that protect quality and minimize artificial additions."], ["Cooks", "Recognize cooks who let honest raw ingredients lead the finished dish."]] },
+    process: { eyebrow: "The Certification Process", title: "From Application\nto Recognition.", steps: [["01", "Apply", "Submit your interest to FFC."], ["02", "Review", "We review your food practices and ingredient choices."], ["03", "Assessment", "FFC carries out a more thorough assessment."], ["04", "Recognition", "Qualified applicants receive FFC recognition."]] },
+    close: { title: "A Better Food Tomorrow\nStarts with You." },
+  },
+  restaurant: {
+    hero: { eyebrow: "FFC Restaurant", title: "Real Ingredients.\nFood Made With Care.", copy: "Come experience what FFC believes in through a tea bar and comforting home-style cooking." },
+    discovery: { eyebrow: "Explore FFC Restaurant", title: "From menu to kitchen,\nit all matters.", cards: [["Menu", "Explore our tea bar, home-style dishes and signature creations."], ["Our Kitchen", "Discover how thoughtful preparation lets ingredients speak for themselves."], ["Our Ingredients", "Learn how ingredient choices shape everything we serve."]] },
+    philosophy: { eyebrow: "Our Philosophy", title: "From ingredient\nto table.", copy: "A simple food experience shaped by care, comfort and thoughtful choices.", points: [["Thoughtful Ingredients", "Ingredient choices lead the way."], ["Home-style Cooking", "Comfort made with care."], ["Tea & Original Creations", "Small rituals worth sharing."]] },
+    visit: { eyebrow: "Visit Our Restaurant", title: "Come experience it\nat our table.", name: "Foodie & Friend Cuisine" },
+  },
+  menu: {
+    hero: { eyebrow: "FFC Restaurant", title: "Our Menu", copy: "Tea Bar × Home-style Cooking. Placeholder selections below are structured for easy menu updates." },
+    categories: ["Tea", "Signature Drinks", "Home-style Dishes", "Signature Dishes"],
+    items: [["House Tea Selection", "A rotating selection of comforting teas, served with care."], ["Garden Herb Tea", "A fragrant, gently steeped herbal cup."], ["Citrus Tea Cooler", "Bright citrus and tea, made for an easy afternoon."], ["Seasonal Vegetable Plate", "A satisfying plate shaped by seasonal ingredients."], ["Comfort Bowl", "Home-style cooking with warm, familiar flavours."], ["FFC Signature Dish", "Our approach in one thoughtful, ingredient-led dish."]],
+  },
+  kitchen: {
+    hero: { eyebrow: "Our Kitchen", title: "Cooking With\nIngredients in Mind.", copy: "Thoughtful preparation lets ingredients speak for themselves and makes every shared meal feel familiar." },
+    story: { eyebrow: "Our Approach", title: "Simple care,\nfelt at the table.", copy: "From preparation to plating, we focus on food that feels warm, thoughtful and true to its ingredients.", points: ["Prepared with care", "Home-style cooking", "Natural flavours first"] },
+    tagline: "Good food is made in the details.",
+  },
+  ingredients: {
+    hero: { eyebrow: "Our Ingredients", title: "It Starts\nwith Ingredients.", copy: "We prefer real, raw ingredients and thoughtful sourcing, with less reliance on artificial additives." },
+    story: { eyebrow: "What Guides Us", title: "Let ingredients\ntake the lead.", copy: "We believe better food starts with a closer relationship to what goes into it — without making claims beyond what a dish can honestly deliver.", cards: [["Real & raw ingredients", "Ingredients valued for their natural character."], ["Thoughtful sourcing", "Careful choices that shape what reaches the kitchen."], ["Less reliance on artificial additives", "A considered approach rather than sweeping claims."]] },
+  },
+  contact: {
+    hero: { eyebrow: "Contact Us", title: "Let’s Talk\nGood Food.", copy: "Whether you’re interested in FFC Certification, our restaurant, ingredients or collaboration, we’d love to hear from you." },
+    info: { queen: "Queen Chin", foong: "Foong", location: "Location", collaborate: "Collaborate", collaborateCopy: "Let’s start with a conversation." },
+    form: { eyebrow: "Send Us a Message", title: "We’re Here to Help.", name: "Person In-charge Name", company: "Company Name", country: "Country", state: "State", phone: "Contact Number", email: "Email", enquiry: "Enquiry Type", message: "Message", phonePlaceholder: "Malaysia +60", selectEnquiry: "Select an enquiry type", options: ["FFC Certification", "Restaurant", "Ingredient / Supply", "Collaboration", "General Enquiry"], validation: "Please complete the required fields before sending your enquiry.", preparing: "Preparing…", submit: "Send Message", note: "This form is ready for API integration. No contact details are sent from this demo.", successTitle: "Thank you for reaching out.", successCopy: "Your message is ready for the FFC team. This demo form does not send data until an API is configured.", another: "Send another message" },
+    visit: { eyebrow: "Visit Us", title: "Come Visit FFC.", mapLabel: "Foodie & Friend Cuisine", mapLocation: "Petaling Jaya, Selangor" },
+  },
+  alt: { heroDish: "A finished dish with fresh greens", greens: "Fresh leafy ingredients", restaurant: "Warm restaurant interior", dish: "Signature vegetable dish", tea: "A warm signature tea", basket: "Fresh ingredient basket", certificate: "Two food professionals holding an FFC certificate", leaves: "Leaves with water drops", kitchen: "Kitchen preparation", prep: "Ingredient preparation", produce: "Farm produce", teaGarden: "Tea leaves", completedDish: "Finished dish" },
+};

@@ -1,0 +1,73 @@
+export const zh = {
+  locale: "zh" as const,
+  meta: {
+    home: { title: "Foodie & Friend Cuisine | 扎根马来西亚", description: "好食物，从真实食材开始。" },
+    about: { title: "关于 FFC | Foodie & Friend Cuisine", description: "认识 Foodie & Friend Cuisine 背后的人与理念。" },
+    certification: { title: "FFC 认证 | Foodie & Friend Cuisine", description: "认可重视真实食材与用心饮食实践的伙伴。" },
+    restaurant: { title: "FFC 餐厅 | Foodie & Friend Cuisine", description: "以用心食材打造的茶饮与家常料理体验。" },
+    menu: { title: "我们的菜单 | FFC 餐厅", description: "探索 FFC 餐厅的茶饮与家常料理菜单。" },
+    kitchen: { title: "我们的厨房 | FFC 餐厅", description: "了解 FFC 用心对待食材的烹饪方式。" },
+    ingredients: { title: "我们的食材 | FFC 餐厅", description: "了解 FFC 对食材与采购方式的重视。" },
+    contact: { title: "联系 FFC | Foodie & Friend Cuisine", description: "与位于八打灵再也的 Foodie & Friend Cuisine 联系。" },
+  },
+  navigation: { home: "首页", about: "关于我们", certification: "FFC 认证", restaurant: "餐厅", contact: "联系我们" },
+  common: {
+    rooted: "扎根马来西亚", certified: "申请 FFC 认证", visitRestaurant: "到访我们的餐厅", discoverStory: "探索我们的故事",
+    exploreRestaurant: "探索 FFC 餐厅", exploreMenu: "浏览菜单", visitUs: "欢迎到访", googleMaps: "Google 地图", waze: "Waze",
+    openNavigation: "打开导航菜单", closeNavigation: "关闭导航菜单", mobileNavigation: "移动导航菜单", mainNavigation: "主导航菜单",
+    restaurantHighlights: "餐厅精选", seeRestaurant: "查看餐厅", editorialPhoto: "FFC 餐饮摄影", selectLanguage: "选择语言",
+  },
+  footer: { addressLabel: "地址", rights: "© 2026 Foodie & Friend Cuisine。保留所有权利。", tagline: "好食物，让人们相聚。", instagram: "Instagram" },
+  home: {
+    hero: { eyebrow: "扎根马来西亚", desktopTitle: "好食物，\n从真实食材开始。", mobileTitle: "好食物，\n从真实食材开始。", copy: "Foodie & Friend Cuisine 汇聚相信好食物源于真实食材的人们。" },
+    about: { eyebrow: "关于 FFC", title: "以真诚食物\n凝聚的社群。", copy: "Foodie & Friend Cuisine 汇聚餐饮创作者、餐厅、厨师与生产者，相信更好的食物始于真实食材，并减少对人工添加物的依赖。", founders: "由 Mr. Foong 与 Queen Chin 创立" },
+    restaurant: { eyebrow: "FFC 餐厅", title: "品尝我们\n所相信的美味。", copy: "我们的理念，融入茶饮吧与温暖家常料理之中，以用心食材慢慢呈现。", dish: "招牌料理", dishCopy: "真实食材，真切风味。", tea: "招牌茶饮", teaCopy: "用心调制。" },
+    certification: {
+      eyebrow: "FFC 认证", title: "认可每一位\n用心选择食材的伙伴。", copy: "我们与餐厅、农场、食品生产商和厨师同行，支持更好的食材与更负责任的饮食实践。", timelineTitle: "从申请到认可。",
+      steps: [["01", "提交申请", "向 FFC 提交您的申请意向。"], ["02", "资料审核", "我们了解您的饮食实践。"], ["03", "全面评估", "进行细致而周全的评估。"], ["04", "认证认可", "符合条件者将获得 FFC 认可。"]],
+      roles: ["餐厅", "农业生产者", "食品生产商", "厨师"],
+    },
+    values: { eyebrow: "我们的理念", title: "我们所坚持的。", items: [["真实食材", "食物，本该如此。"], ["负责任的实践", "为人，也为土地。"], ["更紧密的社群", "好食物，让人们相聚。"], ["更美好的明天", "更健康的食物，更明亮的未来。"]] },
+    ctas: { professionalsEyebrow: "给餐饮专业伙伴", professionalsTitle: "相信更好的食材？\n成为 FFC 的一员。", loversEyebrow: "给热爱美食的你", loversTitle: "欢迎到我们的餐桌，\n感受这份美好。" },
+  },
+  about: {
+    hero: { eyebrow: "我们的故事", title: "让饮食文化，拥有更高的标准。", copy: "由 Teaxini Tea 的 Mr. Foong 与 HY Fried Station 的 Miss Queen Chin 在马来西亚共同创立。" },
+    story: { first: "Foodie & Friend Cuisine（FFC）是马来西亚的认证机构，由 Teaxini Tea 的 Mr. Foong 与 HY Fried Station 的 Miss Queen Chin 创立。我们珍视真诚烹饪的艺术，也向每一位以诚信和热忱创作食物的人致意。", second: "我们的使命，是连接负责任的生产者、厨师与社群，建立一个重视每道料理品质与真实感的网络。我们一起提升餐饮标准，并在这个行业里培育真诚而有意义的连结。", missionTitle: "我们的使命", missionCopy: "认可重视原始食材、透明与用心的饮食实践。" },
+    values: { eyebrow: "我们的价值", title: "我们所坚持的。", items: [["真实食材", "食物，本该如此。"], ["负责任的实践", "为人，也为土地。"], ["更紧密的社群", "好食物，让人们相聚。"], ["更美好的明天", "更健康的食物，更明亮的未来。"]] },
+    founders: { eyebrow: "创办人", title: "食物，\n让我们相聚。", copy: "由 Mr. Foong 与 Queen Chin 创立，他们始终相信：好食物能创造更美好的明天。", link: "认识我们的创办人" },
+    close: { title: "更好的食材。\n更明亮的明天。" },
+  },
+  certification: {
+    hero: { eyebrow: "FFC 认证", desktopTitle: "认可每一位\n用心选择真实食材的伙伴。", mobileTitle: "认可每一位\n用心选择\n真实食材的伙伴。", copy: "FFC 认可那些以用心饮食实践和食材诚信为核心的餐厅、农业生产者、食品生产商与厨师。" },
+    roles: { eyebrow: "谁可以申请认证", title: "不同角色，\n共同信念。", copy: "我们欢迎每一位致力于真实食材与更负责任饮食实践的餐饮伙伴。", items: [["餐厅", "展现菜单、厨房与备餐选择如何体现对食材本质的重视。"], ["农业生产者", "展现对原料种植、采收与处理的细致用心。"], ["食品生产商", "呈现守护品质并减少不必要人工添加物的生产实践。"], ["厨师", "认可让真诚食材引领每一道料理的厨师。"]] },
+    process: { eyebrow: "认证流程", title: "从提交申请\n到获得认可。", steps: [["01", "提交申请", "向 FFC 提交您的申请意向。"], ["02", "资料审核", "我们了解您的饮食实践与食材选择。"], ["03", "全面评估", "FFC 会进行更完整的评估。"], ["04", "认证认可", "符合条件者将获得 FFC 认可。"]] },
+    close: { title: "更好的饮食未来，\n从您开始。" },
+  },
+  restaurant: {
+    hero: { eyebrow: "FFC 餐厅", title: "真实食材。\n用心成就好味道。", copy: "欢迎来到 FFC，在茶饮吧与温暖家常料理中，感受我们所相信的美味。" },
+    discovery: { eyebrow: "探索 FFC 餐厅", title: "从菜单到厨房，\n每个细节都重要。", cards: [["菜单", "探索我们的茶饮、家常料理与招牌创作。"], ["我们的厨房", "看看用心的准备如何让食材自然说话。"], ["我们的食材", "了解食材选择如何塑造我们端上的每一道料理。"]] },
+    philosophy: { eyebrow: "我们的理念", title: "从食材\n到餐桌。", copy: "一段由用心、舒适与细致选择共同塑造的简单饮食体验。", points: [["用心的食材", "让食材选择引领方向。"], ["家常料理", "以用心带来熟悉的温暖。"], ["茶饮与原创滋味", "值得分享的小小日常仪式。"]] },
+    visit: { eyebrow: "欢迎到访餐厅", title: "欢迎到我们的餐桌，\n感受这份美好。", name: "Foodie & Friend Cuisine" },
+  },
+  menu: {
+    hero: { eyebrow: "FFC 餐厅", title: "我们的菜单", copy: "茶饮吧 × 家常料理。以下为可持续更新的菜单精选。" },
+    categories: ["茶饮", "招牌饮品", "家常料理", "招牌料理"],
+    items: [["House Tea Selection", "轮替呈现的舒心茶饮，用心泡好每一杯。"], ["花园香草茶", "带着清新香草气息的温和茶饮。"], ["柑橘茶饮", "明亮柑橘与茶香，适合悠闲午后。"], ["时令蔬菜拼盘", "以当季食材呈现的一份满足。"], ["Comfort Bowl", "带着温暖熟悉风味的家常料理。"], ["FFC 招牌料理", "一道体现我们食材理念的用心料理。"]],
+  },
+  kitchen: {
+    hero: { eyebrow: "我们的厨房", title: "用心料理，\n心中有食材。", copy: "细致的准备，让食材自然展现，也让每一顿共享的饭菜多一份熟悉与温暖。" },
+    story: { eyebrow: "我们的做法", title: "简单的用心，\n餐桌上能感受到。", copy: "从备料到摆盘，我们专注于温暖、细致，并忠于食材本质的食物。", points: ["用心准备", "家常料理", "优先保留自然风味"] },
+    tagline: "好食物，藏在每个细节里。",
+  },
+  ingredients: {
+    hero: { eyebrow: "我们的食材", title: "一切，\n从食材开始。", copy: "我们偏好真实、原始的食材与细致的采购方式，并减少对人工添加物的依赖。" },
+    story: { eyebrow: "指引我们的事", title: "让食材，\n成为主角。", copy: "我们相信，更好的食物源于更了解盘中的每一种食材，也不做超出料理本身所能诚实表达的承诺。", cards: [["真实与原始的食材", "珍视食材自然本真的个性。"], ["细致的采购", "用心的选择，决定走进厨房的一切。"], ["减少依赖人工添加物", "以审慎的态度，而非夸大的承诺。"]] },
+  },
+  contact: {
+    hero: { eyebrow: "联系我们", title: "聊聊\n好食物。", copy: "无论您想了解 FFC 认证、餐厅、食材或合作机会，我们都很乐意听您说。" },
+    info: { queen: "Queen Chin", foong: "Foong", location: "地点", collaborate: "合作", collaborateCopy: "让我们从一段对话开始。" },
+    form: { eyebrow: "给我们留言", title: "我们乐意协助。", name: "负责人姓名", company: "公司名称", country: "国家", state: "州属", phone: "联系电话", email: "电子邮箱", enquiry: "咨询类型", message: "留言", phonePlaceholder: "马来西亚 +60", selectEnquiry: "请选择咨询类型", options: ["FFC 认证", "餐厅", "食材 / 供应", "合作", "一般咨询"], validation: "请先填写所有必填项目，再发送您的咨询。", preparing: "准备中…", submit: "提交留言", note: "此表单已准备好连接 API。在演示版本中，不会发送任何联系资料。", successTitle: "感谢您的联系。", successCopy: "您的留言已准备交给 FFC 团队。此演示表单会在 API 配置完成后才实际发送资料。", another: "再发送一则留言" },
+    visit: { eyebrow: "欢迎到访", title: "欢迎来到 FFC。", mapLabel: "Foodie & Friend Cuisine", mapLocation: "八打灵再也，雪兰莪" },
+  },
+  alt: { heroDish: "一道搭配新鲜蔬菜的完成料理", greens: "新鲜绿叶食材", restaurant: "温暖的餐厅空间", dish: "招牌蔬菜料理", tea: "温暖的招牌茶饮", basket: "新鲜食材篮", certificate: "两位餐饮专业人士手持 FFC 认证证书", leaves: "带着水珠的叶片", kitchen: "厨房备餐场景", prep: "食材准备过程", produce: "农场收成", teaGarden: "茶叶", completedDish: "完成的料理" },
+};

@@ -1,1 +1,0 @@
-export const navigation = [{ label: "Home", href: "/" },{ label: "About", href: "/about" },{ label: "Certification", href: "/certification" },{ label: "Restaurant", href: "/restaurant" },{ label: "Contact", href: "/contact" }];
