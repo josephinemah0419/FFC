@@ -28,7 +28,6 @@ const eslintConfig = defineConfig([
       globals: {
         ...globals.browser,
         ...globals.node,
-        ...globals.serviceworker,
       },
     },
     settings: {

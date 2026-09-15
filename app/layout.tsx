@@ -1,10 +1,29 @@
 import type { Metadata } from "next";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
+const cormorantGaramond = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-display",
+  display: "swap",
+});
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ffc-malaysia-20260914.josephinemah0419.chatgpt.site"),
+  metadataBase: new URL(siteUrl),
   title: "Foodie & Friend Cuisine | Rooted in Malaysia",
   description: "Honest food starts with real ingredients.",
   openGraph: {
@@ -31,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><Header />{children}<Footer /></body>
+      <body className={`${cormorantGaramond.variable} ${manrope.variable}`}><Header />{children}<Footer /></body>
     </html>
   );
 }

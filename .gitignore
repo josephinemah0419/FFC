@@ -15,7 +15,6 @@
 
 # next.js
 /.next/
-/.vinext/
 /out/
 
 # misc
@@ -35,12 +34,8 @@ yarn-error.log*
 .vercel
 
 /dist/
-/.wrangler/
 /outputs/
 /work/
-
-# Codex / local workspace
-.openai/
 
 # TypeScript build cache
 *.tsbuildinfo
