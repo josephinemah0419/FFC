@@ -16,3 +16,8 @@ export const images = {
 
 export const mapLink = "https://maps.app.goo.gl/CSZkdNGPuai3wCx89";
 export const wazeLink = "https://waze.com/ul/hw28386yhm";
+export const whatsappLink = "https://wa.me/601161199465";
+export const socialLinks = {
+  facebook: "https://www.facebook.com/profile.php?id=61578107203070&rdid=Og9Ap41eu9S2XjzE&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19NovunEJz%2F#",
+  instagram: "https://www.instagram.com/foodie_n_friend?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+};

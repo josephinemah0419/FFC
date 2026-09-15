@@ -16,6 +16,7 @@ export const zh = {
     exploreRestaurant: "探索 FFC 餐厅", exploreMenu: "浏览菜单", visitUs: "欢迎到访", googleMaps: "Google 地图", waze: "Waze",
     openNavigation: "打开导航菜单", closeNavigation: "关闭导航菜单", mobileNavigation: "移动导航菜单", mainNavigation: "主导航菜单",
     restaurantHighlights: "餐厅精选", seeRestaurant: "查看餐厅", editorialPhoto: "FFC 餐饮摄影", selectLanguage: "选择语言",
+    social: { followUs: "关注我们", facebook: "Facebook", facebookName: "Foodie & Friend", instagram: "Instagram", instagramName: "@foodie_n_friend", visitFacebook: "访问 Foodie & Friend 的 Facebook 页面", visitInstagram: "访问 foodie_n_friend 的 Instagram 页面" },
   },
   footer: { addressLabel: "地址", rights: "© 2026 Foodie & Friend Cuisine。保留所有权利。", tagline: "好食物让人们相聚", instagram: "Instagram" },
   home: {
@@ -66,7 +67,7 @@ export const zh = {
   contact: {
     hero: { eyebrow: "联系我们", title: "聊聊\n好食物", copy: "无论您想了解 FFC 认证、餐厅、食材或合作机会，我们都很乐意听您说。" },
     info: { queen: "Queen Chin", foong: "Foong", location: "地点", collaborate: "合作", collaborateCopy: "让我们从一段对话开始。" },
-    form: { eyebrow: "给我们留言", title: "我们乐意协助", name: "负责人姓名", company: "公司名称", country: "国家", state: "州属", phone: "联系电话", email: "电子邮箱", enquiry: "咨询类型", message: "留言", phonePlaceholder: "马来西亚 +60", selectEnquiry: "请选择咨询类型", options: ["FFC 认证", "餐厅", "食材 / 供应", "合作", "一般咨询"], validation: "请先填写所有必填项目，再发送您的咨询。", preparing: "准备中…", submit: "提交留言", note: "此表单已准备好连接 API。在演示版本中，不会发送任何联系资料。", successTitle: "感谢您的联系。", successCopy: "您的留言已准备交给 FFC 团队。此演示表单会在 API 配置完成后才实际发送资料。", another: "再发送一则留言" },
+    form: { eyebrow: "给我们留言", title: "我们乐意协助", name: "负责人姓名", company: "公司名称", country: "国家", state: "州属", phone: "联系电话", email: "电子邮箱", enquiry: "咨询类型", message: "留言", phonePlaceholder: "马来西亚 +60", selectEnquiry: "请选择咨询类型", options: ["FFC 认证", "餐厅", "食材 / 供应", "合作", "一般咨询"], validation: "请先填写所有必填项目，再发送您的咨询。", emailValidation: "请输入有效的电子邮箱。", submit: "通过 WhatsApp 发送", note: "提交后将前往 WhatsApp 完成咨询发送", whatsappGreeting: "您好 FFC，我想进行咨询。", whatsappName: "姓名", whatsappCompany: "公司", whatsappCountry: "国家", whatsappState: "州属", whatsappPhone: "联系电话", whatsappEmail: "电子邮箱", whatsappEnquiry: "咨询类型", whatsappMessage: "留言" },
     visit: { eyebrow: "欢迎到访", title: "欢迎来到 FFC", mapLabel: "Foodie & Friend Cuisine", mapLocation: "八打灵再也，雪兰莪" },
   },
   alt: { heroDish: "一道搭配新鲜蔬菜的完成料理", greens: "新鲜绿叶食材", restaurant: "温暖的餐厅空间", founders: "Mr. Foong 与 Queen Chin", dish: "招牌蔬菜料理", tea: "温暖的招牌茶饮", basket: "新鲜食材篮", certificate: "两位餐饮专业人士手持 FFC 认证证书", leaves: "带着水珠的叶片", kitchen: "厨房备餐场景", prep: "食材准备过程", produce: "农场收成", teaGarden: "茶叶", completedDish: "完成的料理" },

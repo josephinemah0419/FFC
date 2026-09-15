@@ -22,6 +22,5 @@ export default function AboutPage() {
     </div></section>
     <section className="section value-section"><div className="shell"><Reveal><SectionLabel>{about.values.eyebrow}</SectionLabel><h2>{about.values.title}</h2></Reveal><div className="value-grid">{about.values.items.map(([title, copy], index) => { const Icon = valueIcons[index]; return <Reveal className="value-item" key={title}><span className="icon-orb"><Icon /></span><h3>{title}</h3><p>{copy}</p></Reveal>; })}</div></div></section>
     <section className="founders-section"><Media src={images.founders} alt={t.alt.founders} /><div className="shell founders-copy"><Reveal><SectionLabel>{about.founders.eyebrow}</SectionLabel><h2><LocalizedLines text={about.founders.title} /></h2><p>{about.founders.copy}</p><ActionLink href="/contact" variant="text">{about.founders.link} <ArrowRight /></ActionLink></Reveal></div></section>
-    <section className="about-close"><div className="shell"><div><h2><LocalizedLines text={about.close.title} /></h2></div><ActionLink href="/contact">{t.common.certified} <ArrowRight /></ActionLink></div></section>
   </main>;
 }
