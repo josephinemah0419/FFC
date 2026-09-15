@@ -1,7 +1,7 @@
 export const zh = {
   locale: "zh" as const,
   meta: {
-    home: { title: "Foodie & Friend Cuisine | 扎根马来西亚", description: "好食物，从真实食材开始。" },
+    home: { title: "Foodie & Friend Cuisine | 源自马来西亚", description: "好食物，从真实食材开始。" },
     about: { title: "关于 FFC | Foodie & Friend Cuisine", description: "认识 Foodie & Friend Cuisine 背后的人与理念。" },
     certification: { title: "FFC 认证 | Foodie & Friend Cuisine", description: "认可重视真实食材与用心饮食实践的伙伴。" },
     restaurant: { title: "FFC 餐厅 | Foodie & Friend Cuisine", description: "以用心食材打造的茶饮与家常料理体验。" },
@@ -12,14 +12,14 @@ export const zh = {
   },
   navigation: { home: "首页", about: "关于我们", certification: "FFC 认证", restaurant: "餐厅", contact: "联系我们" },
   common: {
-    rooted: "扎根马来西亚", certified: "申请 FFC 认证", visitRestaurant: "到访我们的餐厅", discoverStory: "探索我们的故事",
+    rooted: "源自马来西亚", certified: "申请 FFC 认证", visitRestaurant: "到访我们的餐厅", discoverStory: "探索我们的故事",
     exploreRestaurant: "探索 FFC 餐厅", exploreMenu: "浏览菜单", visitUs: "欢迎到访", googleMaps: "Google 地图", waze: "Waze",
     openNavigation: "打开导航菜单", closeNavigation: "关闭导航菜单", mobileNavigation: "移动导航菜单", mainNavigation: "主导航菜单",
     restaurantHighlights: "餐厅精选", seeRestaurant: "查看餐厅", editorialPhoto: "FFC 餐饮摄影", selectLanguage: "选择语言",
   },
   footer: { addressLabel: "地址", rights: "© 2026 Foodie & Friend Cuisine。保留所有权利。", tagline: "好食物让人们相聚", instagram: "Instagram" },
   home: {
-    hero: { eyebrow: "扎根马来西亚", desktopTitle: "好食物\n从真实食材开始", mobileTitle: "好食物\n从真实食材开始", copy: "Foodie & Friend Cuisine 汇聚相信好食物源于真实食材的人们。" },
+    hero: { eyebrow: "源自马来西亚", desktopTitle: "好食物\n从真实食材开始", mobileTitle: "好食物\n从真实食材开始", copy: "Foodie & Friend Cuisine 汇聚相信好食物源于真实食材的人们。" },
     about: { eyebrow: "关于 FFC", title: "以真诚食物\n凝聚的社群", copy: "Foodie & Friend Cuisine 汇聚餐饮创作者、餐厅、厨师与生产者，相信更好的食物始于真实食材，并减少对人工添加物的依赖。", founders: "由 Mr. Foong 与 Queen Chin 创立" },
     restaurant: { eyebrow: "FFC 餐厅", title: "品尝我们\n所相信的美味", copy: "我们的理念，融入茶饮吧与温暖家常料理之中，以用心食材慢慢呈现。", dish: "招牌料理", dishCopy: "真实食材，真切风味。", tea: "招牌茶饮", teaCopy: "用心调制。" },
     certification: {
