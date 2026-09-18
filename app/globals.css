@@ -1375,3 +1375,17 @@ html[data-locale="zh"] .certification-hero-copy h1 { letter-spacing: 0; line-hei
 @media (min-width: 681px) and (max-width: 1024px) {
   .menu-section .menu-book-page .menu-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 }
+
+/* Keep the secondary category rail compact enough to preview the next choices on phones. */
+@media (max-width: 680px) {
+  .menu-tabs.menu-subtabs { gap: 8px; }
+
+  .menu-tabs.menu-subtabs button {
+    flex: 0 0 calc((100% - 16px) / 2.5);
+    min-width: 0;
+    min-height: 48px;
+    padding-inline: 8px;
+    white-space: normal;
+    text-align: center;
+  }
+}
