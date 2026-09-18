@@ -1366,3 +1366,12 @@ html[data-locale="zh"] .certification-hero-copy h1 { letter-spacing: 0; line-hei
   .menu-book-page .menu-item h3, .menu-book-page .text-menu-item { font-size: .75rem; }
   .menu-book-page .menu-item .menu-price { font-size: .6875rem; }
 }
+
+/* Menu card density by device: desktop four, iPad three, phone two. */
+@media (min-width: 1025px) {
+  .menu-section .menu-book-page .menu-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+}
+
+@media (min-width: 681px) and (max-width: 1024px) {
+  .menu-section .menu-book-page .menu-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+}
