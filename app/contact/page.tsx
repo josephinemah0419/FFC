@@ -7,7 +7,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionLabel } from "@/components/ui/Section";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/SocialIcons";
-import { images, mapLink, socialLinks, wazeLink } from "@/data/site";
+import { images, mapEmbedLink, mapLink, socialLinks, wazeLink } from "@/data/site";
 
 export default function ContactPage() {
   const { t } = useLocale();
@@ -19,8 +19,8 @@ export default function ContactPage() {
     <div className="contact-flow">
       <section className="section contact-main"><div className="shell contact-form-shell"><Reveal><SectionLabel>{contact.form.eyebrow}</SectionLabel><h2>{contact.form.title}</h2><ContactForm /></Reveal></div></section>
       <section className="section contact-visit-section"><div className="shell contact-visit-layout">
-        <Reveal className="contact-visit-copy"><SectionLabel>{contact.visit.eyebrow}</SectionLabel><h2>{contact.visit.title}</h2><address>Foodie &amp; Friend Cuisine<br />1st Floor, 1D-1, Jalan SS 9a/17,<br />43700 Petaling Jaya, Selangor, Malaysia</address><div className="hero-actions"><a className="button button-primary" href={mapLink} target="_blank" rel="noreferrer">{t.common.googleMaps} <ArrowRight /></a><a className="button button-ghost" href={wazeLink} target="_blank" rel="noreferrer">{t.common.waze} <ArrowRight /></a></div><nav className="contact-socials" aria-label={social.followUs}><SectionLabel>{social.followUs}</SectionLabel><a href={socialLinks.facebook} target="_blank" rel="noopener noreferrer" aria-label={social.visitFacebook}><span className="contact-social-icon"><FacebookIcon className="facebook-icon" /></span><span className="contact-social-account"><small>{social.facebook}</small><b>{social.facebookName}</b></span><ArrowUpRight /></a><a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" aria-label={social.visitInstagram}><span className="contact-social-icon"><InstagramIcon className="instagram-icon" /></span><span className="contact-social-account"><small>{social.instagram}</small><b>{social.instagramName}</b></span><ArrowUpRight /></a></nav></Reveal>
-        <Reveal className="contact-map-preview" delay={.1}><div className="contact-map-pin"><MapPin /><span>{contact.visit.mapLabel}</span></div><p>{contact.visit.mapLocation}</p></Reveal>
+        <Reveal className="contact-visit-copy"><SectionLabel>{contact.visit.eyebrow}</SectionLabel><h2>{contact.visit.title}</h2><address>Foodie &amp; Friend Cuisine<br />1st Floor, 1D-1, Jalan SS 9a/17,<br />43700 Petaling Jaya, Selangor, Malaysia</address><div className="hero-actions"><a className="button button-primary" href={mapLink} target="_blank" rel="noopener noreferrer">{contact.visit.googleMaps} <ArrowRight /></a><a className="button button-ghost" href={wazeLink} target="_blank" rel="noopener noreferrer">{contact.visit.waze} <ArrowRight /></a></div><nav className="contact-socials" aria-label={social.followUs}><SectionLabel>{social.followUs}</SectionLabel><a href={socialLinks.facebook} target="_blank" rel="noopener noreferrer" aria-label={social.visitFacebook}><span className="contact-social-icon"><FacebookIcon className="facebook-icon" /></span><span className="contact-social-account"><small>{social.facebook}</small><b>{social.facebookName}</b></span><ArrowUpRight /></a><a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" aria-label={social.visitInstagram}><span className="contact-social-icon"><InstagramIcon className="instagram-icon" /></span><span className="contact-social-account"><small>{social.instagram}</small><b>{social.instagramName}</b></span><ArrowUpRight /></a></nav></Reveal>
+        <Reveal className="contact-map-preview" delay={.1}><iframe allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" src={mapEmbedLink} title={contact.visit.mapTitle} /></Reveal>
       </div></section>
     </div>
   </main>;
